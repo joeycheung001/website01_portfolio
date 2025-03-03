@@ -1,0 +1,35 @@
+body{
+    background-color: #12143B;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Didot, serif;
+    font-size: 100px;
+    line-height: 90px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #B0C9EB;
+    font-family: Didot, serif;
+    font-size: 18px;
+}
+
+#hi {
+    margin-right: 400px; 
+    line-height: 1px; 
+    margin-top: 300px;
+}
+
+#name {
+    margin-right: 150px;
+}
+
+#slogan {
+    margin-top: 75px;
+}
