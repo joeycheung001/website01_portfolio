@@ -3,27 +3,27 @@ body{
 }
 h1 {
     margin: 0;
-    padding: 0;
     text-align: center;
-    color: #FFFFFF;
+    line-height: 90px;
+
     font-family: Didot, serif;
     font-size: 100px;
-    line-height: 90px;
+    color: white;
 }
 
 p {
     margin: 0;
-    padding: 0;
     text-align: center;
-    color: #B0C9EB;
+
     font-family: Didot, serif;
     font-size: 18px;
+    color: #B0C9EB;
 }
 
 #hi {
     margin-right: 400px; 
-    line-height: 1px; 
     margin-top: 300px;
+    line-height: 1px; 
 }
 
 #name {
