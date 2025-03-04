@@ -9,6 +9,8 @@ body{
     padding-right: 5%;
     top: 0;
     right: 0;
+
+    background-color: #12143B;
 }
 
 .navbar {
@@ -70,4 +72,12 @@ p {
 
 #slogan {
     margin-top: 75px;
+}
+
+img {
+	margin-top: 200px;
+	width: 90%;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
 }
