@@ -6,10 +6,9 @@ body{
 
 #nav-box{
     position: fixed;
+    padding-right: 5%;
     top: 0;
     right: 0;
-
-    background-color: #12143B;
 }
 
 .navbar {
