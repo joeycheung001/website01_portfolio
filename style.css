@@ -1,27 +1,45 @@
 body{
     background-color: #12143B;
+    font-family: Didot, serif;
+    font-size: 18px;
 }
 
+#nav-box{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 600px;
+    padding: 30px;
+    
+}
+
+.navbar {
+    display: inline-block;
+    margin-left: 30px;
+
+    color: #728191;
+}
+
+
+
 #title {
+    margin: auto;
     margin-top: 300px;
+
+    text-align: center;
 }
 
 h1 {
     margin: 0;
-    text-align: center;
     line-height: 90px;
 
-    font-family: Didot, serif;
     font-size: 100px;
     color: white;
 }
 
 p {
     margin: 0;
-    text-align: center;
 
-    font-family: Didot, serif;
-    font-size: 18px;
     color: #B0C9EB;
 }
 
