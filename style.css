@@ -30,7 +30,6 @@ body{
     margin-right: 40px;
 
     color: #728191;
-    
 }
 #small-navbar {
     display: none;
@@ -47,14 +46,46 @@ body{
     }
 }
 @media screen and (max-width: 700px) {
-    .navbar {
-        display: none;
+    #joey {
+        font-size: 14vw;
+    }
+    #cheung {
+        font-size: 14vw;
+    }
+    #hi {
+        font-size: 2.6vw;
+    }
+    #slogan {
+        font-size: 2.6vw;
     }
     #small-navbar {
         display: block;
         margin-right: 40px;
-        margin-top: -25px;
+        margin-top: 15px;
         width: 40px;
+    }
+    .navbar {
+        display: inline-block;
+        margin-top: 40px;
+    }
+    
+    .dropdown-nav {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content-nav {
+        display: none;
+        position: absolute;
+        right: 0;
+        padding-right: 5px;
+        z-index: 1;
+        text-align: right;
+
+        background-color: #12143B;
+    }
+
+    .dropdown-nav:hover .dropdown-content-nav {
+      display: block;
     }
 }
 
@@ -78,34 +109,42 @@ body{
 
 
 #title {
+    position: relative;
     margin: auto;
     margin-top: 300px;
-
-    text-align: center;
+    padding-right: 15vw;
+    width: fit-content;
 }
 
 h1 {
-    margin: 0;
-    line-height: 90px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 90%;
 
     font-size: 100px;
     color: white;
 }
 
 p {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 
     color: #B0C9EB;
 }
 
 #hi {
-    margin-right: 400px; 
+    margin-left: 0%;
 }
 
-#name {
-    margin-right: 150px;
+#joey {
+    margin-left: 15%;
+}
+
+#cheung {
+    margin-left: 16%;
 }
 
 #slogan {
-    margin-top: 75px;
+    margin-left:35%;
+    margin-top: 20%;
 }
