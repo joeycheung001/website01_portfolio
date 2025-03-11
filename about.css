@@ -1,0 +1,40 @@
+
+#title {
+    position: relative;
+    margin: auto;
+    margin-top: 300px;
+    padding-right: 15vw;
+    width: fit-content;
+}
+
+#hi {
+    margin-left: 0%;
+}
+
+#joey {
+    margin-left: 15%;
+}
+
+#cheung {
+    margin-left: 16%;
+}
+
+#slogan {
+    margin-left:35%;
+    margin-top: 20%;
+}
+
+@media screen and (max-width: 700px) {
+    #joey {
+        font-size: 14vw;
+    }
+    #cheung {
+        font-size: 14vw;
+    }
+    #hi {
+        font-size: 2.6vw;
+    }
+    #slogan {
+        font-size: 2.6vw;
+    }
+}
