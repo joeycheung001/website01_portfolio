@@ -13,34 +13,19 @@
 		</div>
 
 		<div class="dropdown-nav">
-			<img src="smallnavbar.png" id="small-navbar">
+			<a href="javascript:void(0);" onclick="navDropdown()">
+				<img src="smallnavbar.png" id="small-navbar">
+			</a>
 
-			<ul class="dropdown-content-nav">
-				<div class="dropdown">
-					<li class="navbar">about</li>
-					<p class="dropdown-content">weeee</p>
-				</div>
-				
-				<div class="dropdown">
-					<li class="navbar">illustration</li>
-					<p class="dropdown-content">weeee</p>
-				</div>
-	
-				<div class="dropdown">
-					<li class="navbar">concept</li>
-					<p class="dropdown-content">weeee</p>
-				</div>
-	
-				<div class="dropdown">
-					<li class="navbar">graphic</li>
-					<p class="dropdown-content">weeee</p>
-				</div>
-	
-				<div class="dropdown">
-					<li class="navbar">contact</li>
-					<p class="dropdown-content">weeee</p>
-				</div>
-			</ul>
+			<div id="dropdown-menu">
+				<ul class="dropdown-content-nav">
+					<li class="navbar"><a href="index.html">about</a></li>
+					<li class="navbar"><a href="">illustration</a></li>
+					<li class="navbar"><a href="">concept</a></li>
+					<li class="navbar"><a href="">graphic</a></li>
+					<li class="navbar"><a href="">contact</a></li>
+				</ul>
+			</div>
 		</div>
 		
 	</div>
@@ -51,6 +36,7 @@
 		<h1 id="cheung">cheung</h1>
 		<p id="slogan">dream beyond the stars.</p>
 	</div>
+	<script src="script.js"></script>
 
 </body> 
 </html>

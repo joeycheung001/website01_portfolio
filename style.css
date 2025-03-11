@@ -13,6 +13,7 @@ body{
     left: 0;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 
     background-color: #12143B;
 }
@@ -25,85 +26,23 @@ body{
     display:none; 
 }
 
-.navbar {
-    display: inline-block;
-    margin-right: 40px;
-
+a {
+    text-decoration: none;
     color: #728191;
 }
+
+.navbar {
+    margin-right: 40px;
+}
+
 #small-navbar {
     display: none;
 }
 
-@media screen and (max-width: 850px) {
-    #small-logo { 
-        display: block; 
-        margin-left: 50px;
-        width: 50px;
-    }
-    #logo {
-        display: none;
-    }
-}
-@media screen and (max-width: 700px) {
-    #joey {
-        font-size: 14vw;
-    }
-    #cheung {
-        font-size: 14vw;
-    }
-    #hi {
-        font-size: 2.6vw;
-    }
-    #slogan {
-        font-size: 2.6vw;
-    }
-    #small-navbar {
-        display: block;
-        margin-right: 40px;
-        margin-top: 15px;
-        width: 40px;
-    }
-    .navbar {
-        display: inline-block;
-        margin-top: 40px;
-    }
-    
-    .dropdown-nav {
-        position: relative;
-        display: inline-block;
-    }
-    .dropdown-content-nav {
-        display: none;
-        position: absolute;
-        right: 0;
-        padding-right: 5px;
-        z-index: 1;
-        text-align: right;
-
-        background-color: #12143B;
-    }
-
-    .dropdown-nav:hover .dropdown-content-nav {
-      display: block;
-    }
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    padding: 5px;
-    z-index: 1;
-
-    border-radius: 3px;
-    background-color: #728191;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
+.dropdown-content-nav {
+    display: flex;
+    list-style-type: none;
+    background-color: #12143B;
 }
 
 
@@ -147,4 +86,66 @@ p {
 #slogan {
     margin-left:35%;
     margin-top: 20%;
+}
+
+@media screen and (max-width: 850px) {
+    #small-logo { 
+        display: block; 
+        margin-left: 50px;
+        width: 50px;
+    }
+    #logo {
+        display: none;
+    }
+}
+@media screen and (max-width: 700px) {
+    #joey {
+        font-size: 14vw;
+    }
+    #cheung {
+        font-size: 14vw;
+    }
+    #hi {
+        font-size: 2.6vw;
+    }
+    #slogan {
+        font-size: 2.6vw;
+    }
+
+    #small-navbar {
+        display: block;
+        margin-right: 40px;
+        margin-top: 15px;
+        width: 40px;
+    }
+    .navbar {
+        display: block;
+        margin-top: 40px;
+    }
+    
+    .dropdown-nav {
+        position: relative;
+        display: inline-block;
+    }
+
+    #dropdown-menu{
+        display: none;
+        position: absolute;
+        right: 0;
+        padding-right: 5px;
+        text-align: right;
+        z-index: -1;
+    }
+
+    .dropdown-content-nav {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        margin-top: -100px;
+        margin-right: -10px;
+        padding-top: 100px;
+        padding-right: 10px;
+
+        background-color: #1E1E1E;
+    }
 }
