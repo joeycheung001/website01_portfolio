@@ -3,8 +3,9 @@
     position: relative;
     margin: auto;
     margin-top: 300px;
-    padding-right: 8vw;
+    padding-right: 15vw;
     width: fit-content;
+    border: solid;
 }
 
 #hi {

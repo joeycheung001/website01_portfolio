@@ -4,7 +4,30 @@ body{
     font-size: 18px;
 }
 
-#nav-box{
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 90%;
+
+    font-size: 100px;
+    color: white;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: #B0C9EB;
+}
+
+a {
+    text-decoration: none;
+    color: #728191;
+}
+
+
+
+#nav-entire{
     position: fixed;
     padding-top: 40px;
     padding-right: 1%;
@@ -22,52 +45,31 @@ body{
     margin-left: 50px;
     width: 200px;
 }
-#small-logo { 
+#logo-small { 
     display:none; 
 }
 
-a {
-    text-decoration: none;
-    color: #728191;
-}
-
-.navbar {
-    margin-right: 40px;
-}
-
-#small-navbar {
+#nav-small-icon {
     display: none;
 }
 
-.dropdown-content-nav {
+.nav-buttons {
+    margin-right: 40px;
+}
+
+.nav-ul {
     display: flex;
     list-style-type: none;
+}
+
+#dropdown-menu{
     background-color: #12143B;
+
 }
-
-
-
-
-h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 90%;
-
-    font-size: 100px;
-    color: white;
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-
-    color: #B0C9EB;
-}
-
 
 
 @media screen and (max-width: 850px) {
-    #small-logo { 
+    #logo-small { 
         display: block; 
         margin-left: 50px;
         width: 50px;
@@ -78,32 +80,21 @@ p {
 }
 @media screen and (max-width: 700px) {
    
-    #small-navbar {
+    #nav-small-icon {
         display: block;
         margin-right: 40px;
         margin-top: 15px;
         width: 40px;
     }
-    .navbar {
+
+
+
+    .nav-buttons {
         display: block;
         margin-top: 40px;
     }
     
-    .dropdown-nav {
-        position: relative;
-        display: inline-block;
-    }
-
-    #dropdown-menu{
-        display: none;
-        position: absolute;
-        right: 0;
-        padding-right: 5px;
-        text-align: right;
-        z-index: -1;
-    }
-
-    .dropdown-content-nav {
+    .nav-ul {
         display: flex;
         flex-direction: column;
         height: 1000px;
@@ -113,5 +104,14 @@ p {
         padding-right: 10px;
 
         background-color: #1E1E1E;
+    }
+
+    #dropdown-menu{
+        display: none;
+        position: absolute;
+        right: 0;
+        padding-right: 5px;
+        text-align: right;
+        z-index: -1;
     }
 }
