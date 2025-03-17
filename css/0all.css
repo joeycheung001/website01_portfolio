@@ -27,7 +27,7 @@ a {
 
 
 
-#nav-entire{
+#nav-entire {
     position: fixed;
     top: 0;
     right: 0;
@@ -105,7 +105,7 @@ a {
 
 
 
-#nav-small-icon {
+#nav-menu-icon {
     display: none;
 }
 
@@ -120,7 +120,7 @@ a {
 
 @media screen and (max-width: 700px) {
    
-    #nav-small-icon {
+    #nav-menu-icon {
         display: block;
         margin-right: 40px;
         margin-top: 15px;
