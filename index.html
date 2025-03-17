@@ -5,16 +5,17 @@
 	<link rel="stylesheet" href="css/0all.css">
 	<link rel="stylesheet" href="css/1about.css">
 	<link rel="stylesheet" href="css/5contact.css">
-	<script src="js/script.js"></script>
 
 	<link href="https://fonts.cdnfonts.com/css/pecita" rel="stylesheet">
 </head> 
 <body> 
 	<div id="nav-entire">
-		<div id="logo-box">
+		<div id="logo-box" onclick="starAudio();">
+			<audio id="sound-star" src="sparkle.wav" autostart="false"></audio>
+
 			<p class="logo-long logo-joey">joey</p>
 			<p class="logo-short logo-joey">j</p>
-			<img src="img/Star.png" alt="STAR" class="logo-star">
+			<img src="img/Star.png" alt="STAR" class="logo-star"></img>
 			<p class="logo-long logo-cheung">cheung</p>
 			<p class="logo-short logo-cheung">c</p>
 		</div>
@@ -42,5 +43,7 @@
 		<h1 id="cheung">cheung</h1>
 		<p id="slogan">dream beyond the stars.</p>
 	</div>
+	<script src="js/script.js"></script>
+
 </body> 
 </html>
