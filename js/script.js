@@ -4,16 +4,22 @@ function starAudio() {
     starSound.play();
 }
 
-function navDropdown() {
-    var x = document.getElementById("dropdown-menu");
-    if (x.style.display === "block") {
-		x.style.display = "none";
-	} else {
-		x.style.display = "block";
-	}
-}
-
 window.onresize = function() {
     var x = document.getElementById("dropdown-menu");
-    x.style.display = "block";
+    var divWidth = window.innerWidth;
+
+    if (divWidth<=700) {
+        x.style.display = "none";
+    }else{
+        x.style.display = "block";
+    }
+}
+
+function navDropdown() {
+    var x = document.getElementById("dropdown-menu");
+    if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
 }
