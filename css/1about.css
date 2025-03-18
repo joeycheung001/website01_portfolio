@@ -30,6 +30,78 @@
     margin-top: 20%;
 }
 
+
+#constellation {
+    height: 100%;
+    width: 100%;
+    transform: scale(0.5);
+}
+#star1 {
+    display: inline-block;
+    position: absolute;
+
+    width: 25px;
+    top: 50px;
+    left: 425px;
+    
+}
+#star2 {
+    display: inline-block;
+    position: absolute;
+
+    width: 25px;
+    top: 125px;
+    left: 225px;
+}
+#star3 {
+    display: inline-block;
+    position: absolute;
+
+    width: 25px;
+    top: 145px;
+    left: 500px;
+}
+#star4 {
+    display: inline-block;
+    position: absolute;
+
+    width: 25px;
+    top: 325px;
+    left: 435px;
+}
+#star5 {
+    display: inline-block;
+    position: absolute;
+
+    width: 25px;
+    top: 355px;
+    left: 400px;
+}
+#star6 {
+    display: inline-block;
+    position: absolute;
+
+    width: 25px;
+    top: 375px;
+    left: 365px;
+}
+#star7 {
+    display: inline-block;
+    position: absolute;
+
+    width: 25px;
+    top: 700px;
+    left: 290px;
+}
+#star8 {
+    display: inline-block;
+    position: absolute;
+
+    width: 35px;
+    top: 625px;
+    left: 575px;
+}
+
 @media screen and (max-width: 700px) {
     #joey {
         font-size: 14vw;
@@ -47,53 +119,5 @@
     #slogan {
         font-size: 2.6vw;
     }
-}
 
-#constellation{
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-}
-#star1 {
-    width: 25px;
-    margin-left: 425px;
-    margin-top: 100px;
-}
-#star2 {
-    width: 25px;
-    margin-left: 225px;
-    margin-top: 25px;
-}
-#star3 {
-    width: 25px;
-    margin-left: 500px;
-    margin-top: 20px;
-
-}
-#star4 {
-    width: 25px;
-    margin-left: 450px;
-    margin-top: 200px;
-}
-#star5 {
-    width: 25px;
-    margin-left: 400px;
-    margin-top: 5px;
-}
-#star6 {
-    width: 25px;
-    margin-left: 350px;
-    margin-top: 0px;
-}
-#star7 {
-    width: 25px;
-    margin-left: 290px;
-    margin-top: 250px;
-
-}
-#star8 {
-    width: 35px;
-    margin-left: 575px;
-    margin-top: -75px;
 }
