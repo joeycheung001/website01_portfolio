@@ -17,6 +17,12 @@
 
 #cheung {
     margin-left: 16%;
+    margin-bottom: -30px;
+}
+
+#title-star {
+    max-width: 10%;
+    margin-left: 115%;
 }
 
 #slogan {
@@ -30,11 +36,61 @@
     }
     #cheung {
         font-size: 14vw;
+        margin-bottom: -4.5vw;
     }
     #hi {
         font-size: 2.6vw;
     }
+    #title-star {
+        width: 5vw;
+    }
     #slogan {
         font-size: 2.6vw;
     }
+}
+
+#constellation{
+    display: flex;
+    flex-direction: column;
+}
+#star1 {
+    width: 25px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+#star2 {
+    width: 25px;
+    margin-left: 300px;
+}
+#star3 {
+    width: 25px;
+    margin-left: 600px;
+    margin-top: 100px;
+
+}
+#star4 {
+    width: 25px;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+#star5 {
+    width: 25px;
+    margin-left: 400px;
+    margin-top: -20px;
+}
+#star6 {
+    width: 25px;
+    margin-left: 350px;
+    margin-top: -20px;
+}
+#star7 {
+    width: 25px;
+    margin-left: 200px;
+    margin-top: 120px;
+
+}
+#star8 {
+    width: 35px;
+    margin-left: 500px;
+    margin-top: 100px;
 }
