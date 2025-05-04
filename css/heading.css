@@ -4,6 +4,21 @@
     margin-top: 25vh;
     translate: 0% -50%;
     width: fit-content;
+}
 
-    font-size: 80px;
+#heading-text {
+    margin-left: 0%;
+}
+
+#heading-star {
+    position: absolute;
+    top: 59%;
+    width: 20px;
+    margin-left: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    #heading-star {
+        width: 2.9vw;
+    }
 }
