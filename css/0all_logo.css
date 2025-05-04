@@ -1,11 +1,5 @@
 #logo-box {
     display: flex;
-    margin-left: 40px;
-
-    font-family: 'Pecita', sans-serif;
-    font-size: 30px;
-    font-weight: 50;
-    color: #B0C9EB;
 }
 
 
@@ -27,13 +21,19 @@
 }
 
 .logo-joey {
-    margin-top: 8px;
+    margin-top: 5px;
     margin-right: -3px;
+
+    font-family: 'Pecita', sans-serif;
+    font-size: 28px;
 }
 
 .logo-cheung {
     margin-top: 20px;
-    margin-left: -3px;
+    margin-left: -5px;
+
+    font-family: 'Pecita', sans-serif;
+    font-size: 28px;
 }
 
 
@@ -48,12 +48,11 @@
     }
 
     .logo-joey {
-        margin-top: -7px;
+        margin-top: -9px;
         margin-right: -10px;
     }
 
     .logo-cheung{
-        margin-top: 27px;
-        margin-left: -8px;
-    }
+        margin-top: 23px;
+        margin-left: -9px;    }
 }

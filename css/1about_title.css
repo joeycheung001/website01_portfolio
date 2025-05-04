@@ -2,32 +2,34 @@
 #title-box {
     position: relative;
     margin: auto;
-    margin-top: 300px;
-    padding-right: 10vw;
+    margin-top: 50dvh;
+    translate: 0% -50%;
     width: fit-content;
 }
 
 #hi {
-    margin-left: 0%;
+    margin-left: -18%;
+    font-family: "Chonburi", serif;
+    font-size: 14px;
 }
 
 #joey {
-    margin-left: 15%;
+    margin-left: 0%;
 }
 
 #cheung {
-    margin-left: 16%;
+    margin-left: 1%;
     margin-bottom: -30px;
 }
 
 #title-star {
     max-width: 10%;
-    margin-left: 115%;
+    margin-left: 100%;
 }
 
 #slogan {
-    margin-left:35%;
     margin-top: 20%;
+    text-align: center;
 }
 
 
@@ -103,11 +105,8 @@
 }
 
 @media screen and (max-width: 700px) {
-    #joey {
-        font-size: 14vw;
-    }
+    
     #cheung {
-        font-size: 14vw;
         margin-bottom: -4.5vw;
     }
     #hi {
