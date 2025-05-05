@@ -1,25 +1,24 @@
 #gallery {
     display: grid;
-    width: 100vw;
-    grid-template-columns: 24vw 24vw 24vw 24vw;
-    grid-template-rows: 25vw 25vw;
-    justify-content: space-evenly;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 60vw;
+    grid-gap: 1vw;
+    padding: 1vw;
 }
 
 .thumbnails {
-    grid-row: 1 / span 2;
     overflow: hidden;
-
-    border-start-end-radius: 75%;
-    border-start-start-radius: 75%;
 }
 
 .thumbnails img {
     height: 100%;
 }
 
-@media(max-width: 700px){
-    .gallery {
-        flex-wrap: wrap;
+@media screen and (max-width: 700px){
+    #gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 120vw;
+        grid-gap: 2vw;
+        padding: 2vw;
     }
 }

@@ -1,0 +1,74 @@
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 10vw;
+    grid-gap: 1vw;
+    padding: 1vw;
+
+    grid-template-areas:
+        "a . . ."
+        "a b . ."
+        "a b c ."
+        "a b c d"
+        "a b c d"
+        "a b c d"
+        ". b c d"
+        ". . c d"
+        ". . . d";
+}
+
+.itm1 {
+    grid-area: a;
+}
+
+.itm2 {
+    grid-area: b;
+}
+
+.itm3 {
+    grid-area: c;
+}
+
+.itm4 {
+    grid-area: d;
+}
+
+.thumbnails {
+    overflow: hidden;
+
+    border-start-end-radius: 75%;
+    border-start-start-radius: 75%;
+}
+
+.thumbnails img {
+    height: 100%;
+}
+
+@media screen and (max-width: 700px){
+    #gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 20vw;
+        grid-gap: 2vw;
+        padding: 2vw;
+
+        grid-template-areas:
+        "a ."
+        "a b"
+        "a b"
+        "a b"
+        "a b"
+        "a b"
+        "c b"
+        "c d"
+        "c d"
+        "c d"
+        "c d"
+        "c d"
+        ". d";
+    }
+
+    .itm3, .itm4{
+        border-start-end-radius: 0%;
+        border-start-start-radius: 0%;
+    }
+}
