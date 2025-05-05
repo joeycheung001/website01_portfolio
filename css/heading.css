@@ -2,7 +2,7 @@
     position: relative;
     margin: auto;
     margin-top: 25vh;
-    translate: 0% -50%;
+    inset: 0;
     margin-bottom: 10%;
     width: fit-content;
 }

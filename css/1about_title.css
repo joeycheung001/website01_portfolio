@@ -1,8 +1,9 @@
 #title-box {
     position: relative;
     margin: auto;
-    margin-top: 50dvh;
-    translate: 0% -50%;
+    margin-top: 25dvh;
+    inset: 0;
+    margin-bottom: 15vw;
     width: fit-content;
 }
 
@@ -108,16 +109,13 @@
 
 
 @media only screen and (max-width: 700px) {
-    #title-box {
-        margin-top: 25dvh;
-    }
-
     #cheung {
         margin-bottom: -4.5vw;
     }
 
     #hi {
-        font-size: 2vw;
+        margin-left: 0%;
+        margin-bottom: 5px;
     }
 
     #title-star {
