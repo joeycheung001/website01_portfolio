@@ -6,6 +6,8 @@
     padding: 1vw;
 }
 
+
+
 .thumbnails {
     overflow: hidden;
 }
@@ -14,7 +16,9 @@
     height: 100%;
 }
 
-@media screen and (max-width: 700px){
+
+
+@media only screen and (max-width: 700px){
     #gallery {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 120vw;

@@ -18,7 +18,9 @@
     margin-left: 100%;
 }
 
-@media screen and (max-width: 700px) {
+
+
+@media only screen and (max-width: 700px) {
     #heading-star {
         width: 2.9vw;
     }

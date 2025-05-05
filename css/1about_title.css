@@ -33,6 +33,7 @@
 }
 
 
+
 #constellation {
     height: 100%;
     width: 100%;
@@ -104,16 +105,25 @@
     left: 575px;
 }
 
-@media screen and (max-width: 700px) {
+
+
+@media only screen and (max-width: 700px) {
+    #title-box {
+        margin-top: 25dvh;
+    }
+
     #cheung {
         margin-bottom: -4.5vw;
     }
+
     #hi {
         font-size: 2vw;
     }
+
     #title-star {
         width: 2.9vw;
     }
+    
     #slogan {
         font-size: 1.7vw;
     }
