@@ -36,15 +36,26 @@
 
 #arrow {
     margin: auto;
-    width: 2vw;
-    height: 2vw;
-    border-left: 0.5vw solid #B0C9EB;
-    border-bottom: 0.5vw solid #B0C9EB;
+    width: 15px;
+    height: 15px;
+    border-left: 1px solid #B0C9EB;
+    border-bottom: 1px solid #B0C9EB;
     rotate: -45deg;
+    animation: hovering 1.5s ease-in-out infinite alternate;
 }
+
+@keyframes hovering {
+    0% {
+        transform: translateY(0,0);
+    }
+    100% {
+        transform: translate(-10px, 10px);
+    }
+}
+
 #arrow:hover {
-    border-left: 0.5vw solid #728191;
-    border-bottom: 0.5vw solid #728191;
+    border-left-color: white;
+    border-bottom-color: white;
 }
 
 
@@ -140,4 +151,9 @@
         font-size: 1.7vw;
     }
 
+    #arrow {
+        width: 2.1vw;
+        height: 2.1vw;
+        border-left-width: 0.2vw;
+        border-bottom-width: 0.2vw;    }
 }
