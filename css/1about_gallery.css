@@ -15,6 +15,9 @@
         ". b c d"
         ". . c d"
         ". . . d";
+
+    scroll-behavior: smooth;
+    scroll-margin: 90px;
 }
 
 

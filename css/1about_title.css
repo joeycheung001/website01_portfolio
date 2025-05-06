@@ -3,7 +3,7 @@
     margin: auto;
     margin-top: 35dvh;
     inset: 0;
-    margin-bottom: 15vw;
+    margin-bottom: 40vh;
     width: fit-content;
 }
 
@@ -30,7 +30,21 @@
 
 #slogan {
     margin-top: 20%;
+    margin-bottom: 20%;
     text-align: center;
+}
+
+#arrow {
+    margin: auto;
+    width: 2vw;
+    height: 2vw;
+    border-left: 0.5vw solid #B0C9EB;
+    border-bottom: 0.5vw solid #B0C9EB;
+    rotate: -45deg;
+}
+#arrow:hover {
+    border-left: 0.5vw solid #728191;
+    border-bottom: 0.5vw solid #728191;
 }
 
 
