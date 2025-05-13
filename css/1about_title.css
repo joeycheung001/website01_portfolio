@@ -61,75 +61,23 @@
 
 
 #constellation {
-    height: 100%;
+    position: absolute;
     width: 100%;
-    transform: scale(0.5);
+    height: 100%;
+    top: 0px;
 }
-#star1 {
-    display: inline-block;
-    position: absolute;
 
-    width: 25px;
-    top: 50px;
-    left: 425px;
-    
-}
-#star2 {
-    display: inline-block;
+#constellation img {
     position: absolute;
-
-    width: 25px;
-    top: 125px;
-    left: 225px;
+    width: 10px;
 }
-#star3 {
-    display: inline-block;
-    position: absolute;
-
-    width: 25px;
-    top: 145px;
-    left: 500px;
-}
-#star4 {
-    display: inline-block;
-    position: absolute;
-
-    width: 25px;
-    top: 325px;
-    left: 435px;
-}
-#star5 {
-    display: inline-block;
-    position: absolute;
-
-    width: 25px;
-    top: 355px;
-    left: 400px;
-}
-#star6 {
-    display: inline-block;
-    position: absolute;
-
-    width: 25px;
-    top: 375px;
-    left: 365px;
-}
-#star7 {
-    display: inline-block;
-    position: absolute;
-
-    width: 25px;
-    top: 700px;
-    left: 290px;
-}
-#star8 {
-    display: inline-block;
-    position: absolute;
-
-    width: 35px;
-    top: 625px;
-    left: 575px;
-}
+#star1 {top: -31%;left: 60%;}
+#star2 {top: -20%;left: 75%;}
+#star3 {top: -15%;left: 40%;}
+#star4 {top: 14%;left: 74%;}
+#star5 {top: 18%;left: 71%;}
+#star6 {top: 21%;left: 67%;}
+#star7 {top: 58%;left: 70%;}
 
 
 
@@ -156,4 +104,8 @@
         height: 2.1vw;
         border-left-width: 0.2vw;
         border-bottom-width: 0.2vw;    }
+
+    #constellation img {
+        width: 1.4vw;
+    }
 }
